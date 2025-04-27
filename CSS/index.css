@@ -4,7 +4,7 @@ body {
     background: #0d1117;
 }
 .sect1 { 
-    background-image: url('../Assets/index-bg.webp');
+    background-image: url('NarutoVerse/Assets/index-bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ body {
 
 @media (max-width: 1000px) {
     .sect1 {
-        background: url('../Assets/mob-index-bg.webp');
+        background: url('NarutoVerse/Assets/mob-index-bg.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
