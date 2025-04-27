@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Verse</title>
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-div">
+           <img src="Assets/logo.png" alt="" class="logo"> 
+        </div>
+        <div class="div-a">
+            <a class="header-a" href="index.html">Home</a>
+            <a class="header-a" href="about.html">About Us</a>
+            <a class="header-a" href="contact.html">Contact us</a>
+            <a class="header-a" href="services.html">Services</a>
+            <a class="header-a" href="register.html">Register</a>
+        </div>
+        <div class="d-menu-div">
+            <img class="globe" src="Assets/Globe.png" alt="">
+            <a href="login.html"><img class="user" src="Assets/User.png" alt=""></a>
+        </div>
+    </header>
+
+    <header class="mob-header">
+        <div class="mob-head">
+            <div class="mob-logo-div">
+                <img src="Assets/logo.png" alt="" class="mob-logo"> 
+             </div>
+             <div class="mob-menu-div">
+                 <img id="toggle-btn" class="menu" src="Assets/Menu.png" alt="">
+             </div>
+        </div>
+        <div class="mob-div-a">
+            <a class="mob-header-a" href="index.html">Home</a>
+            <a class="mob-header-a" href="about.html">About Us</a>
+            <a class="mob-header-a" href="contact.html">Contact us</a>
+            <a class="mob-header-a" href="services.html">Services</a>
+            <a class="mob-header-a" href="register.html">Register</a>
+        </div>
+    </header>
+
+    <div class="contact-box-container">
+        <div class="contact-box">
+            <div class="contact-info">
+              <h2>Contact Us</h2>
+              <p>Want to reach the Hidden Leaf? We're listening.</p>
+              <div class="info-item"><span>📞</span> +94 *** ****</div>
+              <div class="info-item"><span>📧</span> hokage@narutoverse.com</div>
+              <div class="info-item"><span>📍</span> Hokage's Office, Konoha, Fire Country</div>
+            </div>
+        
+            <div class="contact-form">
+              <form>
+                <div class="name-row">
+                  <input type="text" placeholder="First Name" required>
+                  <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Phone (optional)">
+                <input type="text" placeholder="Message..." required id="message">
+                <input type="submit" value="Send Message">
+              </form>
+            </div>
+          </div>
+    </div>
+
+      <script src="JS/header.js"></script>
+</body>
+</html>
