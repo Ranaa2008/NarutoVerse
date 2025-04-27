@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #0d1117;
+    font-family: 'Orbitron', sans-serif;
 }
 .sect1 {
     background-image: url('/NarutoVerse/Assets/index-bg.webp');
@@ -24,7 +25,6 @@ body {
     justify-content: space-around;
 }
 .intro {
-    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     color: white;
     font-size: 55px;
@@ -34,7 +34,6 @@ body {
     margin: 0;
     color: white;
     font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
     font-weight: 100;
     font-size: 17px;
     line-height: 2;
@@ -53,7 +52,6 @@ body {
     font-size: 15px;
     border-radius: 5px;
     color: black;
-    font-family: 'Orbitron', sans-serif;
     background-color: #ffb300;
     border-style: none;
     cursor: pointer;
@@ -76,7 +74,6 @@ body {
 }
 .sect2-h1 {
     color: white;
-    font-family: 'Orbitron', sans-serif;
     font-weight: 100;
     font-size: 30px;
     margin: 0;
@@ -132,7 +129,6 @@ body {
     margin: auto;
 }
 .hokage-name {
-    font-family: 'Orbitron', sans-serif;
     font-size: 25px;
     margin: 0;
     text-decoration: underline;
@@ -141,7 +137,6 @@ body {
 }
 .hokage-intro {
     color: white;
-    font-family: 'Orbitron', sans-serif;
     font-size: 18px;
     text-align: center;
 }
