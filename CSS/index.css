@@ -3,7 +3,11 @@ body {
     padding: 0;
     background: #0d1117;
 }
-.sect1 { 
+.sect1 {
+    background-image: url('/NarutoVerse/Assets/index-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
 }
