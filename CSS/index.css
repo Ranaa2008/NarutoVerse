@@ -52,13 +52,13 @@ body {
     font-size: 15px;
     border-radius: 5px;
     color: black;
-    background-color: #ffb300;
+    background: #00bfff;
     border-style: none;
     cursor: pointer;
     transition: 0.3s;
 }
 .btn-1:hover, .btn-2:hover {
-    background-color: rgb(114, 0, 0);
+    background: #0099cc;
 }
 .sect2 {
     width: 100%;
