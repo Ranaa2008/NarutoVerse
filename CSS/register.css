@@ -1,0 +1,93 @@
+body {
+    background: #0d1117;
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 100px;
+}
+.signup-box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+form {
+    padding: 40px;
+    box-shadow: 0 0 25px rgba(0, 191, 255, 0.5);
+    text-align: center;
+    height: auto;
+    width: 40%;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #00bfff;
+    text-shadow: 0 0 10px #00bfff;
+}
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="text"],
+input[type="tel"] {
+    width: 90%;
+    padding: 14px 0 14px 14px;
+    margin: 10px 0;
+    background: #1a1f2b;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+}
+input::placeholder {
+    color: #888;
+}
+input[type="submit"] {
+    width: 92%;
+    padding: 14px;
+    margin-top: 15px;
+    background: #00bfff;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type="submit"]:hover {
+    background: #0099cc;
+}
+.a-div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.a-div a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.a-div a:hover {
+    text-decoration: underline;
+}
+.description-box {
+    margin-top: 30px;
+    padding: 15px;
+    background: #0e1220;
+    border: 1px solid #1f2735;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
+    color: #b3e5fc;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    form {
+        width: 70%;
+    }
+}
