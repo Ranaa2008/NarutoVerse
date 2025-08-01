@@ -3,7 +3,7 @@ const loginUrlParams = new URLSearchParams(loginKeyValues);
 const loginEmail = loginUrlParams.get('loginEmail');
 const loginPassword = loginUrlParams.get('loginPassword');
 let loginHTML = `
-        <h1>Login Parameters</h1>
+        <h1>Login Page Parameters</h1>
         <p>Email - ${loginEmail}</p>
         <p>Password - ${loginPassword}</p>
 `;
@@ -20,7 +20,7 @@ const regPhoneNumber = regUrlParams.get('regPhoneNumber')
 const regDate = regUrlParams.get('regDate')
 
 let regHTML = `
-        <h1>Register Parameters</h1>
+        <h1>Register Page Parameters</h1>
         <p>Name - ${regName}</p>
         <p>Age - ${regAge}</p>
         <p>Email - ${regEmail}</p>
