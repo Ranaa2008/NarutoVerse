@@ -31,3 +31,4 @@ let regHTML = `
 `;
 
 document.querySelector('.displayRegHtmlParameter').innerHTML = regHTML;
+
