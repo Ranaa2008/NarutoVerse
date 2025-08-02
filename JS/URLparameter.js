@@ -32,3 +32,18 @@ let regHTML = `
 
 document.querySelector('.displayRegHtmlParameter').innerHTML = regHTML;
 
+function checkingRegParameter() {
+        if (regName === null) {
+                const regdiv = document.querySelector('.displayRegHtmlParameter');
+                regdiv.innerHTML = "";
+        }
+}
+
+checkingRegParameter();
+function checkingLoginParameter() {
+        if (loginEmail === null) {
+                const logindiv = document.querySelector('.displayLoginHtmlParameter');
+                logindiv.innerHTML = "";
+        }
+}
+checkingLoginParameter();
