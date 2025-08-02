@@ -11,9 +11,10 @@ h1 {
     font-size: 24px;
     color: #00bfff;
     text-shadow: 0 0 10px #00bfff;
+    text-align: center;
 }
 p {
-    font-size: 20px;
+    font-size: 12px;
     margin: 0;
     color: white;
 }
