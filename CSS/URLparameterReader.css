@@ -10,13 +10,13 @@ body {
     margin-top: 150px;
 }
 h1 {
-    font-size: 30px;
+    font-size: 38px;
     color: #00bfff;
     text-shadow: 0 0 10px #00bfff;
     text-align: center;
 }
 p {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
     color: white;
 }
@@ -28,10 +28,10 @@ p {
     }
 
     h1 {
-        font-size: 24;
+        font-size: 22;
     }
     p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
 }
