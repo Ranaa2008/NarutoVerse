@@ -10,13 +10,13 @@ body {
     margin-top: 150px;
 }
 h1 {
-    font-size: 24px;
+    font-size: 30px;
     color: #00bfff;
     text-shadow: 0 0 10px #00bfff;
     text-align: center;
 }
 p {
-    font-size: 12px;
+    font-size: 20px;
     margin: 0;
     color: white;
 }
@@ -25,6 +25,13 @@ p {
     .displayLoginHtmlParameter,
     .displayRegHtmlParameter {
     margin-top: 0;
-}
+    }
+
+    h1 {
+        font-size: 24;
+    }
+    p {
+        font-size: 12px;
+    }
 
 }
