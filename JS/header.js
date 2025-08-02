@@ -9,9 +9,9 @@ window.addEventListener("scroll", function() {
 
 document.getElementById("toggle-btn").addEventListener("click", function () {
     let header = document.querySelector(".mob-header");
-    if (header.style.height === "410px") {
+    if (header.style.height === "430px") {
         header.style.height = "100px";
     } else {
-        header.style.height = "410px";
+        header.style.height = "430px";
     }
 });
