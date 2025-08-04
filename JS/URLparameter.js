@@ -2,12 +2,12 @@ const loginKeyValues = window.location.search;
 const loginUrlParams = new URLSearchParams(loginKeyValues);
 const loginEmail = loginUrlParams.get('loginEmail');
 const loginPassword = loginUrlParams.get('loginPassword');
-let loginHTML = `
+let loginParamHTML = `
         <h1>Login Page Parameters</h1>
         <p>Email - ${loginEmail}</p>
         <p>Password - ${loginPassword}</p>
 `;
-document.querySelector('.displayLoginHtmlParameter').innerHTML = loginHTML;
+document.querySelector('.displayLoginHtmlParameter').innerHTML = loginParamHTML;
 
 const regKeyValues = window.location.search;
 const regUrlParams = new URLSearchParams(regKeyValues);
@@ -19,7 +19,7 @@ const regConfirmPassword = regUrlParams.get('regConfirmPassword')
 const regPhoneNumber = regUrlParams.get('regPhoneNumber')
 const regDate = regUrlParams.get('regDate')
 
-let regHTML = `
+let regParamHTML = `
         <h1>Register Page Parameters</h1>
         <p>Name - ${regName}</p>
         <p>Age - ${regAge}</p>
@@ -30,7 +30,7 @@ let regHTML = `
         <p>Date - ${regDate}</p>
 `;
 
-document.querySelector('.displayRegHtmlParameter').innerHTML = regHTML;
+document.querySelector('.displayRegHtmlParameter').innerHTML = regParamHTML;
 
 function checkingRegParameter() {
         if (regName === null) {
@@ -40,6 +40,7 @@ function checkingRegParameter() {
 }
 
 checkingRegParameter();
+
 function checkingLoginParameter() {
         if (loginEmail === null) {
                 const logindiv = document.querySelector('.displayLoginHtmlParameter');
